@@ -1,0 +1,79 @@
+#myImage {
+    width: 170px;
+    display: flexbox;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p, h2 {
+    color: blueviolet;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+img {
+    
+}
+
+#light {
+    padding-left: 300px;
+}
+
+.on {
+    padding-left: 0px;
+    color: rgb(252, 251, 252);
+    font-size: 16px;
+    background-color:rgb(148, 12, 12);
+    font-style: oblique;
+    border-color: black;
+    border-width: 3px;
+}
+
+.off {
+    color: rgb(251, 252, 252);
+    background-color: black;
+    font-size: 16px;
+    font-style: italic;
+    border-radius:20px;
+    border-color: rgb(148, 12, 12);
+    border-width: 6px;
+}
+
+.turn-me {
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-right: 210px;
+    
+}
+
+#exit {
+    padding-left: 200px;
+}
+
+#exit-2 {
+    padding-left: 1000px;
+}
+
+#super{
+    color: rgb(4, 101, 238);
+    border-radius: 20px;
+    border-width: 10px;
+    font-size: 20px;
+}
+
+.last-exit {
+    color: rgb(4, 101, 238);
+    border-radius: px;
+    border-width: 5px;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+

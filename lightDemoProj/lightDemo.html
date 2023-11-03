@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="lightStyle.css" />
+  <title>Light Demo With JS</title>
+  <body>
+    <div>
+      <h2>Testing the Ability of JavaScrip Light.</h2>
+      <p>This is Lighten Onclick, Off Onclick</p>
+      <div id="light">
+        <button
+          class="on"
+          onclick="document.getElementById('myImage').src='pic_bulbon.gif'"
+        >
+          Turn <strong>NO</strong> the Light
+        </button>
+
+        <img id="myImage" src="pic_bulboff.gif" />
+
+        <button
+          class="off"
+          onclick="document.getElementById('myImage').src='pic_bulboff.gif'"
+        >
+          Turn <strong>OFF</strong> the Light.
+        </button>
+      </div>
+
+      <div id="exit">
+        <p id="super" class="turn-me">Please, turn ME off before you Exit.</p>
+
+        <button id="super" onclick="myFunction()">Click before EXIT</button>
+      </div>
+      <div id="exit-2">
+        <button
+          class="last-exit"
+          type="button"
+          onclick="document.write('Thank You!')"
+        >
+          EXIT
+        </button>
+      </div>
+      <script src="light.js"></script>
+    </div>
+  </body>
+</html>
